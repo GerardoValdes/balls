@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5620E06719C930680030DAF3 /* Menu.m in Sources */ = {isa = PBXBuildFile; fileRef = 5620E06619C930680030DAF3 /* Menu.m */; };
+		562782D619B3DD5600829631 /* EndGameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 562782D519B3DD5600829631 /* EndGameScene.m */; };
+		563F0FCA19A96D0D00D86E18 /* ball.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 563F0FC919A96D0D00D86E18 /* ball.atlas */; };
+		564A369119CFA40100400285 /* plop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 564A369019CFA40100400285 /* plop.mp3 */; };
+		56A1B0D21ADB84FC00BD8C38 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56A1B0D11ADB84FC00BD8C38 /* GameKit.framework */; };
+		56B058711C0ADB2300A21D7C /* popup1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 56B058701C0ADB2300A21D7C /* popup1.wav */; };
+		56B058751C0AE0EC00A21D7C /* CaviarDreams.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56B058741C0AE07000A21D7C /* CaviarDreams.ttf */; };
+		56B058791C0AE5F600A21D7C /* Champagne & Limousines.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56B058781C0AE5F100A21D7C /* Champagne & Limousines.ttf */; };
+		56BDD86F1AD280A600D020EB /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56BDD86D1AD280A600D020EB /* Main_iPad.storyboard */; };
 		56CC7A7919A6EC790008CB65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56CC7A7819A6EC790008CB65 /* Foundation.framework */; };
 		56CC7A7B19A6EC790008CB65 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56CC7A7A19A6EC790008CB65 /* CoreGraphics.framework */; };
 		56CC7A7D19A6EC7A0008CB65 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56CC7A7C19A6EC790008CB65 /* UIKit.framework */; };
@@ -15,16 +24,18 @@
 		56CC7A8719A6EC7A0008CB65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CC7A8619A6EC7A0008CB65 /* main.m */; };
 		56CC7A8B19A6EC7A0008CB65 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CC7A8A19A6EC7A0008CB65 /* AppDelegate.m */; };
 		56CC7A8E19A6EC7A0008CB65 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56CC7A8C19A6EC7A0008CB65 /* Main_iPhone.storyboard */; };
-		56CC7A9119A6EC7A0008CB65 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56CC7A8F19A6EC7A0008CB65 /* Main_iPad.storyboard */; };
 		56CC7A9419A6EC7A0008CB65 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CC7A9319A6EC7A0008CB65 /* ViewController.m */; };
 		56CC7A9719A6EC7A0008CB65 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CC7A9619A6EC7A0008CB65 /* MyScene.m */; };
-		56CC7A9919A6EC7A0008CB65 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 56CC7A9819A6EC7A0008CB65 /* Spaceship.png */; };
 		56CC7A9B19A6EC7A0008CB65 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56CC7A9A19A6EC7A0008CB65 /* Images.xcassets */; };
 		56CC7AA219A6EC7A0008CB65 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56CC7AA119A6EC7A0008CB65 /* XCTest.framework */; };
 		56CC7AA319A6EC7A0008CB65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56CC7A7819A6EC790008CB65 /* Foundation.framework */; };
 		56CC7AA419A6EC7A0008CB65 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56CC7A7C19A6EC790008CB65 /* UIKit.framework */; };
 		56CC7AAC19A6EC7A0008CB65 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 56CC7AAA19A6EC7A0008CB65 /* InfoPlist.strings */; };
 		56CC7AAE19A6EC7A0008CB65 /* ballsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CC7AAD19A6EC7A0008CB65 /* ballsTests.m */; };
+		56CF6BF319B19E250046A155 /* GameState.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CF6BF219B19E250046A155 /* GameState.m */; };
+		56DCD0B819D275E5002E29B9 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56DCD0B719D275E5002E29B9 /* iAd.framework */; };
+		56EBDA661F9E4DE9006DB6FD /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 56EBDA651F9E4DE9006DB6FD /* Podfile */; };
+		5DC81AEC364FA00A188E4868 /* Pods_balls.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6052573992C9AC07E2C58CDF /* Pods_balls.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +49,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15A121ED4026A8A8A3F1B3E8 /* Pods-balls.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-balls.release.xcconfig"; path = "Pods/Target Support Files/Pods-balls/Pods-balls.release.xcconfig"; sourceTree = "<group>"; };
+		5620E06519C930680030DAF3 /* Menu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Menu.h; path = ../Menu.h; sourceTree = "<group>"; };
+		5620E06619C930680030DAF3 /* Menu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Menu.m; path = ../Menu.m; sourceTree = "<group>"; };
+		562782D419B3DD5600829631 /* EndGameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EndGameScene.h; sourceTree = "<group>"; };
+		562782D519B3DD5600829631 /* EndGameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EndGameScene.m; sourceTree = "<group>"; };
+		563F0FC919A96D0D00D86E18 /* ball.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = ball.atlas; sourceTree = "<group>"; };
+		564A369019CFA40100400285 /* plop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = plop.mp3; path = ../plop.mp3; sourceTree = "<group>"; };
+		56A1B0D11ADB84FC00BD8C38 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		56B058701C0ADB2300A21D7C /* popup1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = popup1.wav; sourceTree = "<group>"; };
+		56B058741C0AE07000A21D7C /* CaviarDreams.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CaviarDreams.ttf; sourceTree = "<group>"; };
+		56B058781C0AE5F100A21D7C /* Champagne & Limousines.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Champagne & Limousines.ttf"; sourceTree = "<group>"; };
+		56BDD86E1AD280A600D020EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = balls/Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		56CC7A7519A6EC790008CB65 /* balls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = balls.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56CC7A7819A6EC790008CB65 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		56CC7A7A19A6EC790008CB65 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -50,18 +73,22 @@
 		56CC7A8919A6EC7A0008CB65 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		56CC7A8A19A6EC7A0008CB65 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		56CC7A8D19A6EC7A0008CB65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		56CC7A9019A6EC7A0008CB65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		56CC7A9219A6EC7A0008CB65 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		56CC7A9319A6EC7A0008CB65 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		56CC7A9519A6EC7A0008CB65 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
 		56CC7A9619A6EC7A0008CB65 /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
-		56CC7A9819A6EC7A0008CB65 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		56CC7A9A19A6EC7A0008CB65 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		56CC7AA019A6EC7A0008CB65 /* ballsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ballsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56CC7AA119A6EC7A0008CB65 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		56CC7AA919A6EC7A0008CB65 /* ballsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ballsTests-Info.plist"; sourceTree = "<group>"; };
 		56CC7AAB19A6EC7A0008CB65 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		56CC7AAD19A6EC7A0008CB65 /* ballsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ballsTests.m; sourceTree = "<group>"; };
+		56CF6BF119B19E250046A155 /* GameState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameState.h; sourceTree = "<group>"; };
+		56CF6BF219B19E250046A155 /* GameState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameState.m; sourceTree = "<group>"; };
+		56DCD0B719D275E5002E29B9 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		56EBDA651F9E4DE9006DB6FD /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6052573992C9AC07E2C58CDF /* Pods_balls.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_balls.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AD91F8F7D1B625EA76DE135 /* Pods-balls.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-balls.debug.xcconfig"; path = "Pods/Target Support Files/Pods-balls/Pods-balls.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,10 +96,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56DCD0B819D275E5002E29B9 /* iAd.framework in Frameworks */,
 				56CC7A7B19A6EC790008CB65 /* CoreGraphics.framework in Frameworks */,
 				56CC7A7D19A6EC7A0008CB65 /* UIKit.framework in Frameworks */,
+				56A1B0D21ADB84FC00BD8C38 /* GameKit.framework in Frameworks */,
 				56CC7A7F19A6EC7A0008CB65 /* SpriteKit.framework in Frameworks */,
 				56CC7A7919A6EC790008CB65 /* Foundation.framework in Frameworks */,
+				5DC81AEC364FA00A188E4868 /* Pods_balls.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,10 +122,12 @@
 		56CC7A6C19A6EC790008CB65 = {
 			isa = PBXGroup;
 			children = (
+				56EBDA651F9E4DE9006DB6FD /* Podfile */,
 				56CC7A8019A6EC7A0008CB65 /* balls */,
 				56CC7AA719A6EC7A0008CB65 /* ballsTests */,
 				56CC7A7719A6EC790008CB65 /* Frameworks */,
 				56CC7A7619A6EC790008CB65 /* Products */,
+				CE661E4A500BE6DBC7126582 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,11 +143,14 @@
 		56CC7A7719A6EC790008CB65 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				56A1B0D11ADB84FC00BD8C38 /* GameKit.framework */,
+				56DCD0B719D275E5002E29B9 /* iAd.framework */,
 				56CC7A7819A6EC790008CB65 /* Foundation.framework */,
 				56CC7A7A19A6EC790008CB65 /* CoreGraphics.framework */,
 				56CC7A7C19A6EC790008CB65 /* UIKit.framework */,
 				56CC7A7E19A6EC7A0008CB65 /* SpriteKit.framework */,
 				56CC7AA119A6EC7A0008CB65 /* XCTest.framework */,
+				6052573992C9AC07E2C58CDF /* Pods_balls.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -123,15 +158,23 @@
 		56CC7A8019A6EC7A0008CB65 /* balls */ = {
 			isa = PBXGroup;
 			children = (
+				564A369019CFA40100400285 /* plop.mp3 */,
+				56B058701C0ADB2300A21D7C /* popup1.wav */,
+				563F0FC919A96D0D00D86E18 /* ball.atlas */,
 				56CC7A8919A6EC7A0008CB65 /* AppDelegate.h */,
 				56CC7A8A19A6EC7A0008CB65 /* AppDelegate.m */,
 				56CC7A8C19A6EC7A0008CB65 /* Main_iPhone.storyboard */,
-				56CC7A8F19A6EC7A0008CB65 /* Main_iPad.storyboard */,
+				56BDD86D1AD280A600D020EB /* Main_iPad.storyboard */,
 				56CC7A9219A6EC7A0008CB65 /* ViewController.h */,
 				56CC7A9319A6EC7A0008CB65 /* ViewController.m */,
 				56CC7A9519A6EC7A0008CB65 /* MyScene.h */,
 				56CC7A9619A6EC7A0008CB65 /* MyScene.m */,
-				56CC7A9819A6EC7A0008CB65 /* Spaceship.png */,
+				562782D419B3DD5600829631 /* EndGameScene.h */,
+				562782D519B3DD5600829631 /* EndGameScene.m */,
+				56CF6BF119B19E250046A155 /* GameState.h */,
+				56CF6BF219B19E250046A155 /* GameState.m */,
+				5620E06519C930680030DAF3 /* Menu.h */,
+				5620E06619C930680030DAF3 /* Menu.m */,
 				56CC7A9A19A6EC7A0008CB65 /* Images.xcassets */,
 				56CC7A8119A6EC7A0008CB65 /* Supporting Files */,
 			);
@@ -141,6 +184,8 @@
 		56CC7A8119A6EC7A0008CB65 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				56B058741C0AE07000A21D7C /* CaviarDreams.ttf */,
+				56B058781C0AE5F100A21D7C /* Champagne & Limousines.ttf */,
 				56CC7A8219A6EC7A0008CB65 /* balls-Info.plist */,
 				56CC7A8319A6EC7A0008CB65 /* InfoPlist.strings */,
 				56CC7A8619A6EC7A0008CB65 /* main.m */,
@@ -167,6 +212,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		CE661E4A500BE6DBC7126582 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6AD91F8F7D1B625EA76DE135 /* Pods-balls.debug.xcconfig */,
+				15A121ED4026A8A8A3F1B3E8 /* Pods-balls.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -174,9 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 56CC7AB119A6EC7A0008CB65 /* Build configuration list for PBXNativeTarget "balls" */;
 			buildPhases = (
+				4AF734EB56B8E8F94E60B05B /* [CP] Check Pods Manifest.lock */,
 				56CC7A7119A6EC790008CB65 /* Sources */,
 				56CC7A7219A6EC790008CB65 /* Frameworks */,
 				56CC7A7319A6EC790008CB65 /* Resources */,
+				6CF958269C902461A7740C39 /* [CP] Embed Pods Frameworks */,
+				2A06F84A3A7F542F87CF2582 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -211,9 +268,20 @@
 		56CC7A6D19A6EC790008CB65 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Gerardo Valdés";
 				TargetAttributes = {
+					56CC7A7419A6EC790008CB65 = {
+						DevelopmentTeam = MY9CQY9RF4;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+							com.apple.iOS = {
+								enabled = 0;
+							};
+						};
+					};
 					56CC7A9F19A6EC7A0008CB65 = {
 						TestTargetID = 56CC7A7419A6EC790008CB65;
 					};
@@ -243,10 +311,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56CC7A9919A6EC7A0008CB65 /* Spaceship.png in Resources */,
+				56EBDA661F9E4DE9006DB6FD /* Podfile in Resources */,
 				56CC7A9B19A6EC7A0008CB65 /* Images.xcassets in Resources */,
-				56CC7A9119A6EC7A0008CB65 /* Main_iPad.storyboard in Resources */,
+				56B058711C0ADB2300A21D7C /* popup1.wav in Resources */,
+				564A369119CFA40100400285 /* plop.mp3 in Resources */,
+				563F0FCA19A96D0D00D86E18 /* ball.atlas in Resources */,
+				56BDD86F1AD280A600D020EB /* Main_iPad.storyboard in Resources */,
+				56B058791C0AE5F600A21D7C /* Champagne & Limousines.ttf in Resources */,
 				56CC7A8E19A6EC7A0008CB65 /* Main_iPhone.storyboard in Resources */,
+				56B058751C0AE0EC00A21D7C /* CaviarDreams.ttf in Resources */,
 				56CC7A8519A6EC7A0008CB65 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,15 +334,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2A06F84A3A7F542F87CF2582 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-balls/Pods-balls-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4AF734EB56B8E8F94E60B05B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6CF958269C902461A7740C39 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-balls/Pods-balls-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		56CC7A7119A6EC790008CB65 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				56CC7A9719A6EC7A0008CB65 /* MyScene.m in Sources */,
+				5620E06719C930680030DAF3 /* Menu.m in Sources */,
 				56CC7A9419A6EC7A0008CB65 /* ViewController.m in Sources */,
 				56CC7A8B19A6EC7A0008CB65 /* AppDelegate.m in Sources */,
 				56CC7A8719A6EC7A0008CB65 /* main.m in Sources */,
+				562782D619B3DD5600829631 /* EndGameScene.m in Sources */,
+				56CF6BF319B19E250046A155 /* GameState.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +416,15 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		56BDD86D1AD280A600D020EB /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56BDD86E1AD280A600D020EB /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		56CC7A8319A6EC7A0008CB65 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -306,14 +439,6 @@
 				56CC7A8D19A6EC7A0008CB65 /* Base */,
 			);
 			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		56CC7A8F19A6EC7A0008CB65 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				56CC7A9019A6EC7A0008CB65 /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		56CC7AAA19A6EC7A0008CB65 /* InfoPlist.strings */ = {
@@ -340,13 +465,20 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -359,7 +491,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -379,20 +511,26 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -401,28 +539,42 @@
 		};
 		56CC7AB219A6EC7A0008CB65 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AD91F8F7D1B625EA76DE135 /* Pods-balls.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = MY9CQY9RF4;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "balls/balls-Prefix.pch";
 				INFOPLIST_FILE = "balls/balls-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Gerardo.balls;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		56CC7AB319A6EC7A0008CB65 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15A121ED4026A8A8A3F1B3E8 /* Pods-balls.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = MY9CQY9RF4;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "balls/balls-Prefix.pch";
 				INFOPLIST_FILE = "balls/balls-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Gerardo.balls;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -443,6 +595,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "ballsTests/ballsTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Gerardo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -461,6 +614,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "balls/balls-Prefix.pch";
 				INFOPLIST_FILE = "ballsTests/ballsTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Gerardo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -486,6 +640,7 @@
 				56CC7AB319A6EC7A0008CB65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		56CC7AB419A6EC7A0008CB65 /* Build configuration list for PBXNativeTarget "ballsTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +649,7 @@
 				56CC7AB619A6EC7A0008CB65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

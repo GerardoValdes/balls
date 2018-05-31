@@ -7,12 +7,20 @@
 //
 
 #import "AppDelegate.h"
+#import <AVFoundation/AVFoundation.h>
+@import GoogleMobileAds;
+
+
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    //
+    [GADMobileAds configureWithApplicationID:@"YOUR-APP-ID"];
+    
     // Override point for customization after application launch.
+     [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryAmbient error:nil];
     return YES;
 }
 							
